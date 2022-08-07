@@ -1,0 +1,55 @@
+.map_customise .mapboxgl-ctrl.mapboxgl-ctrl-attrib, .map_customise a.mapboxgl-ctrl-logo {
+    display: none;
+}
+
+.map_customise .mapboxgl-canvas {
+    position: relative !important;
+}
+
+.map_customise .mapboxgl-ctrl-geocoder input[type='text'] {
+    padding-left: 45px;
+}
+
+/* Current Location style */
+.direction_map .mapboxgl-user-location-dot {
+    background-color: red;
+}
+
+/* default mapbox links in map */
+.direction_map .mapboxgl-ctrl-attrib, .direction_map a.mapboxgl-ctrl-logo {
+    display: none;
+}
+
+.direction_map {
+    position: relative !important;
+    width: 95%;
+    margin: auto;
+}
+
+.direction_map .mapboxgl-canvas {
+    position: relative !important;
+}
+
+.direction_map .directions-control.directions-control-inputs {
+    position: absolute;
+    width: 93%;
+}
+
+.direction_map .directions-control {
+    width: 93%;
+}
+
+.direction_map .directions-control.directions-control-directions {
+    top: 123px;
+    left: 10px;
+    position: absolute;
+    bottom: unset;
+}
+
+.direction_map .directions-control, .direction_map .mapbox-directions-route-summary {
+    z-index: unset;
+}
+
+.direction_map .mapboxgl-ctrl-group button:nth-child(2) {
+    display: none;
+}
